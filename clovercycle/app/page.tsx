@@ -12,7 +12,7 @@ export default function Home() {
         <ul className = "bg-cover bg-top sticky flex list-none flex-wrap justify-between m-0 p-4 gap-4 w-full"
         //refernced ai for this line
         style={{ backgroundImage: "url('/images/cloverbg.png')" }}>
-                <li><a href=""className="block text-base md:text-2xl text-[#258730] p-2 md:p-[10px] ml-2"><Image src="/images/cloverlogo.png" alt="clover" width={50} height ={50} className="object-contain"/></a></li>
+        <li><Image src="/images/clovercyclelogo.png" alt="clover" width={50} height ={50} className="object-contain"/></li>
         <li><Link href="/"className="block text-base md:text-2xl text-[#258730] p-2 md:p-[10px] ml-2 hover:scale-105">Home</Link></li>
         <li><Link href="/mission"className="block text-base md:text-2xl text-[#258730] p-2 md:p-[10px] ml-2 hover:scale-105">Mission</Link></li>
         <li><Link href="/mission"className="block text-base md:text-2xl text-[#258730] p-2 md:p-[10px] ml-2 hover:scale-105">Research</Link></li>
@@ -49,7 +49,7 @@ export default function Home() {
           </textPath>
         </text>
       </svg>
-      <Image src="/images/clovercyclelogo.png" alt="logo with name" width={500} height={500} className="object-contain ml-6 flex -mt-[300px] sm:-mt-0 md:-mt-4 lg:-md-8 w-[150px] sm:w-[300px] lg:w-[500px]"></Image>
+      <Image src="/images/clovercyclelogo.png" alt="logo with name" width={500} height={500} className="object-contain ml-6 flex sm:-mt-[150px] md:-mt-[200px] lg:-mt-[450px] w-[150px] sm:w-[300px] lg:w-[500px]"></Image>
         </div>
       </main>
     </div>
