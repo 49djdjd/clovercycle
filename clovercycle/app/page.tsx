@@ -12,7 +12,7 @@ export default function Home() {
         <ul className = "bg-cover bg-top sticky flex list-none flex-wrap justify-between m-0 p-4 gap-4 w-full"
         //refernced ai for this line
         style={{ backgroundImage: "url('/images/cloverbg.png')" }}>
-        <li><Image src="/images/clovercyclelogo.png" alt="clover" width={50} height ={50} className="object-contain"/></li>
+        <li><Image src="/images/cloverlogo1.png" alt="clover" width={50} height ={50} className="object-contain items-center"/></li>
         <li><Link href="/"className="block text-base md:text-2xl text-[#258730] p-2 md:p-[10px] ml-2 hover:scale-105">Home</Link></li>
         <li><Link href="/mission"className="block text-base md:text-2xl text-[#258730] p-2 md:p-[10px] ml-2 hover:scale-105">Mission</Link></li>
         <li><Link href="/mission"className="block text-base md:text-2xl text-[#258730] p-2 md:p-[10px] ml-2 hover:scale-105">Research</Link></li>

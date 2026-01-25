@@ -15,10 +15,9 @@ return (
         <li><Link href="/mission"className="block text-base md:text-2xl text-[#258730] p-2 md:p-[10px] ml-2 hover:scale-105">Contact Us</Link></li>
         </ul>
     <div>
-        <h1 className="justify-center flex m-5 text-5xl text-[#258730]">Our Mission</h1>
-        <div className="bg-blue-50 rounded-lg m-5">
-        <p className="m-5 md:text-lg text-2xl text-black">CloverCycle aims to spread awareness of practicing sustainable habits and its impact on our local community. We aim to inform Syosset of ways to contribute to sustainable living, so we can conserve natural resources and  protect the planet!</p>
-        </div>
+        <p className="text-base md:text-lg text-black">
+            Clovercycle is a student led organization meant to spread awareness about the importance of enviornmental sustanability and it's impact on human health
+        </p>
     </div>
     </main>
     </div>
