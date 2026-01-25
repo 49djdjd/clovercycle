@@ -24,11 +24,11 @@ export default function Home() {
           <blockquote className="instagram-media transform scale-110 md:scale-150 mx-auto my-px min-w-[506px] max-w-[800px] w-full rounded border-0 bg-white p-0 shadow-[0_0_1px_0_rgba(0,0,0,0.5),0_1px_10px_0_rgba(0,0,0,0.15)]" data-instgrm-permalink="https://www.instagram.com/embroidery_for_everyone/?utm_source=ig_embed&utm_campaign=loading" data-instgrm-version="14"></blockquote>
           <a href="https://ww.instgram.com/embroidery_for_everyone/"></a>
         </div> */}
-        <div className ="flex flex-col items-center relative">
+        <div className ="flex flex-col w-full items-center relative px-5 -mt-3">
           {/*referenced ai for help with the svg*/}
         <svg
         viewBox="0 0 300 130"
-        className="w-300 h-auto"
+        className="w-full h-auto"
       >
         <path
           id="arc"
@@ -49,7 +49,7 @@ export default function Home() {
           </textPath>
         </text>
       </svg>
-      <Image src="/images/clovercyclelogo.png" alt="logo with name" width={500} height={500} className="object-contain flex -mt-[280px]"></Image>
+      <Image src="/images/clovercyclelogo.png" alt="logo with name" width={500} height={500} className="object-contain ml-6 flex -mt-[300px] sm:-mt-0 md:-mt-4 lg:-md-8 w-[150px] sm:w-[300px] lg:w-[500px]"></Image>
         </div>
       </main>
     </div>
