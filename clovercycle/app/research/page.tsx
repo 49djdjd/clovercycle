@@ -11,13 +11,18 @@ return (
         <li><Link href="/"className="block text-base md:text-2xl text-[#258730] p-2 md:p-[10px] ml-2 hover:scale-105">Home</Link></li>
         <li><Link href="/mission"className="block text-base md:text-2xl text-[#258730] p-2 md:p-[10px] ml-2 hover:scale-105">Mission</Link></li>
         <li><Link href="/research"className="block text-base md:text-2xl text-[#258730] p-2 md:p-[10px] ml-2 hover:scale-105">Research</Link></li>
-        <li><Link href="/mission"className="block text-base md:text-2xl text-[#258730] p-2 md:p-[10px] ml-2 hover:scale-105">Initatives</Link></li>
+        <li><Link href="/initiatives"className="block text-base md:text-2xl text-[#258730] p-2 md:p-[10px] ml-2 hover:scale-105">Initatives</Link></li>
         <li><Link href="/mission"className="block text-base md:text-2xl text-[#258730] p-2 md:p-[10px] ml-2 hover:scale-105">Contact Us</Link></li>
         </ul>
     <div>
-        <p className="text-base md:text-lg text-black">
-            Clovercycle is a student led organization meant to spread awareness about the importance of enviornmental sustanability and it's impact on human health
-        </p>
+        <h1 className="text-3xl flex mt-5 justify-center text-[#258730]">Research Articles</h1>
+        <p className="text-base md:text-lg text-black ml-20 mr-20">Recent research articles about the connection of human health and enviornmental sustanability</p>
+    </div>
+    <div>
+        <h1 className="flex justify-center text-[#258730] mt-5 text-3xl t">References</h1>
+        <div className="rounded-2xl ml-20 mr-20 p-4 bg-[#deeec9]">
+        <p className="md:text-lg text-2xl text-black"></p>
+        </div>
     </div>
     </main>
     </div>

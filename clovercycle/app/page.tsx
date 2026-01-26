@@ -51,8 +51,33 @@ export default function Home() {
       </svg>
       <Image src="/images/clovercyclelogo.png" alt="logo with name" width={500} height={500} className="object-contain ml-6 flex sm:-mt-[150px] md:-mt-[200px] lg:-mt-[450px] w-[150px] sm:w-[300px] lg:w-[500px]"></Image>
         </div>
+      <div className="mt-2">
+        <h1 className="justify-center flex m-5 px-10 text-5xl text-[#258730]">Live Green. Live Well.</h1>
+        <div className="rounded-2xl ml-20 mr-20 p-4 mb-5 bg-[#deeec9]">
+        <p className="md:text-lg text-2xl text-black">The phrase "Live Green. Live Well" serves as a motto for clovercycle. To "Live Green" means to adapt an eco-friendly lifestyle that helps reduce your environmental impact and protect natural responses. The "Live Well" is used to show the connection between environmental sustanability and human health, and how taking care of one's environment can lead to improvement in health. </p>
+        </div>
+    </div>
+    <div className="flex mt-2">
+    <div className="flex-1 px-10 text-black">
+      <h1 className="text-5xl text-[#258730]">R</h1>
+    </div>
+    <div className="flex-1 px-10 text-black">R</div>
+    <div className="flex-1 px-10 text-black">R</div>
+    </div>
+        {/* <h1 className="justify-center flex m-5 px-10 text-5xl text-[#258730]">What are the 3 Rs?</h1>
+        <div className="w-fit p-2 rounded-2xl mb-5 bg-[#000000]">
+        <h1 className="text-8xl text-green-500">R</h1>
+        </div>
+        <p className="md:text-lg text-2xl text-black">Reduce</p>
+        <div className="rounded-2xl ml-20 mr-20 p-4 mb-5 bg-[#deeec9]">
+        <p className="md:text-lg text-2xl text-black"></p>
+        <div className="rounded-2xl ml-20 mr-20 p-4 mb-5 bg-[#deeec9]">
+        <p className="md:text-lg text-2xl text-black"></p>
+
+        </div>
+        </div> */}
       </main>
     </div>
-    </>
+  </>
   );
 }

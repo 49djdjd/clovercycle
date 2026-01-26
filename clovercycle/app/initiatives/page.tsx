@@ -17,13 +17,13 @@ return (
     <div>
         <h1 className="justify-center flex m-5 text-5xl text-[#258730]">Initiatives</h1>
         <div className="rounded-2xl ml-20 mr-20 p-4 bg-[#deeec9]">
-        <p className="md:text-lg text-2xl text-black m-t">CloverCycle aims to spread awareness of practicing sustainable habits and its impact on our local community. We aim to inform Syosset of ways to contribute to sustainable living, so we can conserve natural resources and  protect the planet!</p>
+        <p className="md:text-lg text-2xl text-black m-t">...</p>
         </div>
     </div>
     <div>
         <h2 className="justify-center flex m-5 text-5xl text-[#258730]">Survey Results</h2>
         <div className="rounded-2xl ml-20 mr-20 p-4 bg-[#deeec9]">
-        <p className="md:text-lg text-2xl text-black m-t">We used google forms to create a survey which we then sent out to our local community through social media apps. The results are displayed below.</p>
+        <p className="md:text-lg text-2xl text-black m-t">We used google forms to create a survey which we then sent out to our local community through social media apps. Sample question include "How confident are you in your sustainable habits?", "What sustainable habits do you engage in?", and "What are you primary concerns for the environment?". You can check out the link here! <a href="https://forms.gle/o2busgCTHFhDWBVK9" target="_blank" rel="noopener noreferrer" className="hover:underline decoration-[#258730] underline-offset-2">Click this! </a></p>
         </div>
     </div>
     </main>
