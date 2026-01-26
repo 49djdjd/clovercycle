@@ -15,9 +15,15 @@ return (
         <li><Link href="/mission"className="block text-base md:text-2xl text-[#258730] p-2 md:p-[10px] ml-2 hover:scale-105">Contact Us</Link></li>
         </ul>
     <div>
-        <h1 className="justify-center flex m-5 text-5xl text-[#258730]">Our Mission</h1>
+        <h1 className="justify-center flex m-5 text-5xl text-[#258730]">Initiatives</h1>
         <div className="rounded-2xl ml-20 mr-20 p-4 bg-[#deeec9]">
         <p className="md:text-lg text-2xl text-black m-t">CloverCycle aims to spread awareness of practicing sustainable habits and its impact on our local community. We aim to inform Syosset of ways to contribute to sustainable living, so we can conserve natural resources and  protect the planet!</p>
+        </div>
+    </div>
+    <div>
+        <h2 className="justify-center flex m-5 text-5xl text-[#258730]">Survey Results</h2>
+        <div className="rounded-2xl ml-20 mr-20 p-4 bg-[#deeec9]">
+        <p className="md:text-lg text-2xl text-black m-t">We used google forms to create a survey which we then sent out to our local community through social media apps. The results are displayed below.</p>
         </div>
     </div>
     </main>
